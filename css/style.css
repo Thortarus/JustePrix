@@ -7,12 +7,6 @@ body {
     background-color: black;
 }
 
-.guessImg {
-    width: 300px;
-    height: 300px;
-}
-
-
 .swal2-popup {
     border-radius: 20px;
 }

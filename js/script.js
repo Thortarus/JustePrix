@@ -102,6 +102,7 @@ function validateGuess() {
       icon: "warning",
       confirmButtonText: "Recommencer",
     });
+    gameReset();
   }
 }
 

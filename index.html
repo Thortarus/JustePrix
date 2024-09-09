@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="css/style.css"/> 
+    <title>Le Juste Prix</title>
+</head>
+    <body>
+        <div class="container justift-content-center">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center mt-5 bg-warning rounded-5 text-black">
+                    <h1 class="animate__animated animate__zoomInRight">Le Juste Prix</h1>
+                </div>
+            </div>
+            <div class="row bg-dark text-white rounded-5 mt-3 d-flex">
+                <div class="text-center mt-2 mb-2">
+                    <button id="beginButton" class="btn btn-outline-warning mt-4">Commencer</button>
+                </div>
+                <div class="col-lg-12 mx-auto text-center mt-2 mb-3">
+                <div class=" mb-3">
+                    <h4 id="textGuess" class="d-none">Devinez le prix de cet objet :</h4>
+                    <img class ="guessImg rounded-5 d-none" id="img0" src="./ressource/img/dice.png" alt="dice">
+                    <img class ="guessImg rounded-5 d-none" id="img1" src="./ressource/img/DinghySkate.png" alt="skateboard">
+                    <img class ="guessImg rounded-5 d-none" id="img2" src="./ressource/img/manette.png" alt="controller">
+                    <img class ="guessImg rounded-5 d-none" id="img3" src="./ressource/img/tapis.png" alt="mousepad">
+                    <img class ="guessImg rounded-5 d-none" id="img4" src="./ressource/img/gourde.png" alt="gourde">
+                </div>
+                <div class="mb-3 d-none" id="guess" >
+                    <div class="col-lg-2">
+                    <label for="" class="form-label"></label>
+                    <input
+                        type="number"
+                        class="form-control"
+                        name=""
+                        id="itemPrice"
+                        aria-describedby="helpId"
+                        placeholder="Prix de l'objet"
+                    /></div>
+                    <button type="submit" class="btn btn-outline-warning mt-3" id="nextButton">Valider</button>
+                </div>
+            </div> 
+            </div>
+        </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="js/script.js"></script>
+    </body>
+</html>

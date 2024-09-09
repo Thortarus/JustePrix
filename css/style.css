@@ -1,0 +1,23 @@
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.guessImg {
+    width: 500px;
+    height: 500px;
+}
+
+
+.swal2-popup {
+    border-radius: 20px;
+}
+
+.swal2-confirm {
+    background-color: #ffc107 !important;
+    color: black !important;
+}
